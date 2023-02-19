@@ -1,0 +1,117 @@
+Entry point
+
+
+int main(void)
+ 
+void (main)
+
+
+my_function(main)
+
+comment..
+entry point
+
+Data types
+
+1.integer
+2.float
+3.double
+4.character
+5.boolean
+6.String
+
+integer - whole numbers
+float - decimal points
+double - elongates memory assigned data
+boolean - true or false
+string
+Character
+
+Format data type specifiers.
+1.%d - integer
+2.%c - character data specifier
+3.%lf- double data specifieds
+ 
+
+
+size of data types.
+
+integers - 4 bytes.
+char - 1 byte
+
+
+styles of code 
+
+ANSI style of code
+ASCII style of code
+Betty style of code
+
+Betty code.
+1.you can start commenting: assign a value (main) and (Return) 
+
+
+2.whitespace are not allowed.
+
+3. betty does not allow multiple statements on one line e.g
+
+
+if (a>b); printf("%d", a)] = are not allowed code
+
+
+4.A space after declairing variable e.g
+
+
+int a;
+int b;
+
+printf(a + b); 
+
+
+5 +80 characters are not allowed in header comment before entry point.
+e.g comments before entry points
+#include <stdio.h>
+/**
+*main - program is for balhe
+
+
+Libraries in C 
+#include <stdio.h> - output and input 
+#include <time.h>
+#include <stdlib.h>
+#include <math.h>\
+
+
+
+
+output functions 
+1.puts
+2.putschar
+3.printf
+4.write
+
+
+output functions -print result directly to the creen
+ 
+input function - collect input from the user.
+e.g
+scanf
+
+
+Condition operators.
+= assigns data
+== which states it is equals to.
+> greater than
+< less than
+=> equal to or greater than
+<= less than or equal to
+!=
+&& and
+|| or 
+
+
+control statements; If, else if, do, while, do while, for 
+
+syntax for if;
+
+if (condition){statements if condition met}
+
