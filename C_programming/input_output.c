@@ -4,12 +4,16 @@
  * Date: 18-02-2023
  * Return: 0 after compilation
  */
+
 int main(void)
 {
-	char A, B, C;
+	char userName;
 	int age;
 
-	scanf("%c%c%c%d", &A, &B, &C, &age);
-	printf("my initial are: %c%c%c and my age is %d.\n", A, B, C, age);
+
+	printf("what is your name?\n and age");
+	scanf("%c%c%c%c%c%c%c%c", &userName);
+
+	printf("your name is %c%c%c%c%c%c%c  and you are %d years old\n", userName, age);
 	return (0);
 }
