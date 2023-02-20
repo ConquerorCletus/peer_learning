@@ -104,7 +104,7 @@ Condition operators.
 < less than
 => equal to or greater than
 <= less than or equal to
-!=
+!= Not 
 && and
 || or 
 
@@ -115,3 +115,32 @@ syntax for if;
 
 if (condition){statements if condition met}
 
+
+
+Arithmetic operators.
++ addition
+- substraction
+* multiplication
+** exponential
+/ 
+%
+
+
+
+
+for loop
+
+the for loop execute a command as long as condition
+
+for evry a do b 
+for b=c do a 
+
+
+for(az='a'; az<= 'z'; az++)
+
+
+
+base 16 =0to 9 and a to f 
+0 1 23456789abcdef
+
+for (a = 0, 
