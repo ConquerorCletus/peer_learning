@@ -147,52 +147,6 @@ for (a = 0,
 
 
 
-A Function a group of statement that perform a particular task.
-add
-multiply 
-
-code 
-functions minimize the length
-
-create a library.
-#ifndef library.h
-#define library.h
-
-returntype fname(function parameters);
-
-#endif 
-
-returntype fname(function parameter)
-{block of code}
-
-#include <stdio.h>
-#include "library.h"
-
-
-a function header and a function body..
-
-returntype fname(parameters){declarations and statements
-
-
-main.h 
-
-ifndef main_h
-define main_h
-
-<function prototype>
-
-
-end if
-
-returntype fname(parameter)
-
-
-void convert(char c);
-
-
-void convert(char c)
-{
-axc;
 
 
 

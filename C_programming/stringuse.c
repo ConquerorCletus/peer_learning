@@ -8,13 +8,17 @@
 int main(void)
 {
 	char a[20] = "HELLO";
-	/*char b[20] = "WORLD";*/
+	char b[20] = "WORLD";
 	char c[20];
 	/*int len;*/
 
 	/*use of strcpy*/
 	strcpy(c, a);
 	printf("we copied a to c:%s\n", c);
+
+	/*use of strcat*/
+	strcat(a, b);
+	printf("The strings of a & b:%s\n", a);
 
 	return (0);
 }
