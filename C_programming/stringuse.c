@@ -20,5 +20,7 @@ int main(void)
 	strcat(a, b);
 	printf("The strings of a & b:%s\n", a);
 
+	printf("The new value of a:%s\n", a);
+
 	return (0);
 }

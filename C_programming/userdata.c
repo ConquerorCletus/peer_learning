@@ -15,7 +15,7 @@ int main(void)
 	fgets(userName, sizeof(userName),stdin);
 
 	printf("How old are you?\n");
-	scanf("%d\n", &age);
+	scanf("%d", &age);
 
 	printf("your name is %s and you are %d years old\n", userName, age);
 	return (0);
