@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-struct node {
+typedef struct node {
 	int data;
 	struct node *link;
-};
+} node;
 /*
  * |data|link = address of the next data
  *   head
@@ -23,12 +23,12 @@ int main()
 	 */
 	int count = 0;
 	
-	struct node *head = NULL;
+	node *head = NULL;
 	head = malloc(sizeof(struct node));
 	head -> data = 45;
 	head -> link = NULL;
 
-	struct node *new;
+	node *new;
 	new = malloc(sizeof(struct node));
 	new -> data = 80;
 	new -> link = NULL;
@@ -39,7 +39,7 @@ int main()
 	new -> link = NULL;
 	head -> link -> link = new;
 
-	struct node *ptr = NULL;
+	node *ptr = NULL;
 	ptr = head;
 	while (ptr != NULL)
 	{
