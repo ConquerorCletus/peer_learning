@@ -17,24 +17,25 @@ This are concepts to be familiar with in order to male use of a linked list.
 
 ### Array vs Linked list
 + in array: arr[3] = {0,1,2};
-**memory block of array
+** memory block of array
 
-    Data1 (0) | Data2 (1) | Data (2) 
-1000         1004        1008--------addr
+### 
+    Data1 (0) | Data2 (1) | Data (2)
+    1000         1004        1008--------addr
 
 in an array the memory block are arranged in a contiguous format, which means that they are all found one after the other
 but, 
 in linked list: \*list = 0, 1, 2;
-**memory block of linked list
-
-|Data1(0)|ptr(2000)|
-      addr:500
-          |
-|Data2(1)|ptr(1000)|
-      addr:2000
-          |
-|Data3(2)|Ptr(NULL)|
-     addr:1000
+** memory block of linked list
+### 
+    |Data1(0)|ptr(2000)|
+        addr:500
+            |
+    |Data2(1)|ptr(1000)|
+       addr:2000
+            |
+    |Data3(2)|Ptr(NULL)|
+        addr:1000
 
 The memory are at different point, connected together by a node ( a pointer tk the next data).
 
