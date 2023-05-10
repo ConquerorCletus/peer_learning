@@ -27,5 +27,3 @@ The collaborators to this repository are;
     Let's Work Together to make the World a Better place.
 
 
-######
-	int main()
