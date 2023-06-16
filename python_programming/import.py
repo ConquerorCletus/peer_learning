@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-import add
+from add import add, sub, divide
 
-print(add.add(2, 3))
-print(add.sub(7, 3))
-print(add.divide(6, 3))
+print(add(2, 3))
+print(sub(7, 3))
+print(divide(6, 3))
