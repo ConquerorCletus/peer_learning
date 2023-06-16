@@ -29,4 +29,14 @@ At the end of the Project, we should be able to confidently make use of OOP just
 1. create a class ExamRecord
 2. class variable no_of_subjects, no_of_students,
 
-3. Define __init__ are year, student_name, 
+3. Define __init__ are year, student_name,
+
+
+Add new student= no_of_students 
+	ExamRecord.no_of_students+=1
+	student_name = 
+
+
+
+Add student name,year
+calculate average_score
