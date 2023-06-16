@@ -1,0 +1,32 @@
+For learning purpose: In order to learn Object Oriented Programming, I thought 
+
+
+A class ExamRecord should be created.
+Properties of an ExamRecord
+1.Student name
+2.Number of Student
+3.no of Subject/course
+4.year of ExamRecord
+5.Cumulative Grade point (average)
+
+
+How I intend to go about it.
+A class ExamRecord would be created.
+A class variable no_of_students is needed, it is a record so it should reflect the number of student in the class.
+A class variable no_of_subjects would be used to calculate the average.
+
+would make more as we go.
+
+
+Goal of Project.
+The goal of the project is to make use of the Knowledge of OOP to build a Mini-ExamRecord
+Knowledge of Class, method, Inheritance. would be used.
+
+
+At the end of the Project, we should be able to confidently make use of OOP just as good as Procedural programming.
+
+
+1. create a class ExamRecord
+2. class variable no_of_subjects, no_of_students,
+
+3. Define __init__ are year, student_name, 
