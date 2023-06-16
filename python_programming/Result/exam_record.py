@@ -9,14 +9,20 @@ class ExamRecord:
         self.score = score
 
     def average_score(self):
-        score = int(input("Enter 8 subject scores"))
+        scores = []
+        for _ in range(ExamRecord.no_of_subjects):
+            score = int(input("Enter subject score: "))
+            scores.append(score)
         total_score = sum(score)
         average = total_score / ExamRecord.no_of_subjects
         return (average)
 
 
 def main():
-    new = average_score()
+    record = ExamRecord("John Doe", 2023)
+    avg = record.average_score()
+    print("Average score:", avg)
+
 
 
 main()
